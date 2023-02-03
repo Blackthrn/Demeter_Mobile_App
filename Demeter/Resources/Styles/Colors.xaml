@@ -23,6 +23,7 @@
     <Color x:Key="Banner_Green">#519872</Color>
     <Color x:Key="Button_Green">#3B5249</Color>
     <Color x:Key="Text_Sienna">#341C1C</Color>
+    <!---->
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
     <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
