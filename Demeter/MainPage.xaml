@@ -4,7 +4,7 @@
              x:Class="Demeter.MainPage"
              BackgroundColor="White">
 
-    <Grid RowDefinitions="Auto, 50, Auto, *, Auto">
+    <Grid RowDefinitions="Auto, Auto, Auto, *, 100">
 
         <!--Add Pridi & Robot0 Font-->
         <!--Header Banner-->
@@ -16,21 +16,25 @@
                TextColor="White"
                FontSize="35"
                HorizontalOptions="Center"
+               VerticalOptions="Center"
         />
 
         <!--Test Entry-->
         <Entry Placeholder="Test"
-               Grid.Row="1"/>
+               Grid.Row="4"
+               HorizontalOptions="Start"/>
 
         <!--Your Plants-->
         <Label Text="Your Plants:"
-               FontSize="35"
+               FontSize="30"
                TextColor="{StaticResource Text_Sienna}"
-               Grid.Row="2"
+               Grid.Row="1"
+               Padding="40, 10"
         />
         
         <!--Plant Profiles-->
-        <CollectionView Grid.Row="3">
+        <CollectionView Grid.Row="2"
+                        Grid.RowSpan="2">
             
             <!--Data Information-->
             <CollectionView.ItemsSource>
@@ -44,11 +48,42 @@
             <!--Formatting how data it displayed-->
             <CollectionView.ItemTemplate>
                 <DataTemplate>
+                    <SwipeView>
+                        <Grid Padding="40, 10">
+                            <Frame BackgroundColor="{StaticResource Background_Beige}"
+                                   BorderColor="{StaticResource Background_Beige}"
+                                   CornerRadius="12"
+                                   HeightRequest="400">
 
-                    <Grid Padding="20"
-                          RowDefinitions="200, 50, 30, 30"
-                          />
+                                <Grid Padding="20,15"
+                                      RowDefinitions="200, Auto, Auto, Auto"
+                                      ColumnDefinitions="50, Auto">
 
+                                    <Label Text="{Binding .}"
+                                           TextColor="{StaticResource Subtitle_Orange}"
+                                           FontSize="25"
+                                           FontAttributes="Bold"
+                                           Grid.Row="1"
+                                           Grid.Column="0"
+                                           Grid.ColumnSpan="2"/>
+
+                                    <Label Text="XXX nm"
+                                           TextColor="{StaticResource Text_Sienna}"
+                                           FontSize="Body"
+                                           Grid.Row="2"
+                                           Grid.Column="1"/>
+
+                                    <Label Text="XXX mm/cm"
+                                           TextColor="{StaticResource Text_Sienna}"
+                                           FontSize="Body"
+                                           Grid.Row="3"
+                                           Grid.Column="1"/>
+                                
+                                </Grid>
+
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             
@@ -57,11 +92,15 @@
         <!--Add Button-->
         <Button Text ="+"
                 TextColor="{StaticResource Background_Beige}"
-                FontSize="20"
+                FontSize="40"
                 FontAttributes="Bold"
                 BackgroundColor="{StaticResource Button_Green}"
-                Grid.Row="3"
+                Grid.Row="4"
                 HorizontalOptions="End"
+                HeightRequest="75"
+                WidthRequest="75"
+                Margin="5"
+                VerticalOptions="Center"
         />
 
     </Grid>
