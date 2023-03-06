@@ -4,9 +4,8 @@
              x:Class="Demeter.MainPage"
              BackgroundColor="White">
 
-    <Grid RowDefinitions="Auto, Auto, Auto, *, 100">
+    <Grid RowDefinitions="Auto, 10, Auto, *, 100">
 
-        <!--Add Pridi & Robot0 Font-->
         <!--Header Banner-->
         <BoxView Color="{StaticResource Banner_Green}"
                  Grid.Row="0"
@@ -19,29 +18,23 @@
                VerticalOptions="Center"
         />
 
-        <!--Test Entry-->
-        <Entry Placeholder="Test"
-               Grid.Row="4"
-               HorizontalOptions="Start"/>
-
         <!--Your Plants-->
         <Label Text="Your Plants:"
                FontSize="30"
                TextColor="{StaticResource Text_Sienna}"
-               Grid.Row="1"
+               Grid.Row="2"
                Padding="40, 10"
         />
         
         <!--Plant Profiles-->
-        <CollectionView Grid.Row="2"
+        <CollectionView Grid.Row="3"
                         Grid.RowSpan="2">
-            
+
             <!--Data Information-->
             <CollectionView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
-                    <x:String>Orchid</x:String>
-                    <x:String>Rose</x:String>
-                    <x:String>Succulent</x:String>
+                    <x:String>Kenia Palm</x:String>
+                    <x:String>Sample Plant</x:String>
                 </x:Array>
             </CollectionView.ItemsSource>
 
@@ -56,8 +49,8 @@
                                    HeightRequest="400">
 
                                 <Grid Padding="20,15"
-                                      RowDefinitions="200, Auto, Auto, Auto"
-                                      ColumnDefinitions="50, Auto">
+                                      RowDefinitions="200, Auto, 50, 50"
+                                      ColumnDefinitions="Auto, Auto">
 
                                     <Label Text="{Binding .}"
                                            TextColor="{StaticResource Subtitle_Orange}"
@@ -67,18 +60,34 @@
                                            Grid.Column="0"
                                            Grid.ColumnSpan="2"/>
 
-                                    <Label Text="XXX nm"
+                                    <Image Source="Images/moisture_icon.svg"
+                                           HeightRequest="35"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"
+                                           Grid.Row="2"
+                                           Grid.Column="0"/>
+
+                                    <Label Text="   Soil Moisture:"
                                            TextColor="{StaticResource Text_Sienna}"
                                            FontSize="Body"
+                                           VerticalTextAlignment="Center"
                                            Grid.Row="2"
                                            Grid.Column="1"/>
 
-                                    <Label Text="XXX mm/cm"
+                                    <Image Source="Images/light_icon.svg"
+                                           HeightRequest="35"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"
+                                           Grid.Row="3"
+                                           Grid.Column="0"/>
+
+                                    <Label Text="   Light Level:"
                                            TextColor="{StaticResource Text_Sienna}"
                                            FontSize="Body"
+                                           VerticalTextAlignment="Center"
                                            Grid.Row="3"
                                            Grid.Column="1"/>
-                                
+                                    
                                 </Grid>
 
                             </Frame>
@@ -86,22 +95,8 @@
                     </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-            
-        </CollectionView>
 
-        <!--Add Button-->
-        <Button Text ="+"
-                TextColor="{StaticResource Background_Beige}"
-                FontSize="40"
-                FontAttributes="Bold"
-                BackgroundColor="{StaticResource Button_Green}"
-                Grid.Row="4"
-                HorizontalOptions="End"
-                HeightRequest="75"
-                WidthRequest="75"
-                Margin="5"
-                VerticalOptions="Center"
-        />
+        </CollectionView>
 
     </Grid>
 

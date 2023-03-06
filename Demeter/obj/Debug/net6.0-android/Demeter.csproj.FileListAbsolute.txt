@@ -954,3 +954,13 @@ C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\ne
 C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\light_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\moisture_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\light_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\moisture_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\light_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\moisture_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\light_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\moisture_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\light_icon.png
+C:\Users\aliso\OneDrive\Documents\GitHub\Demeter_Mobile_App\Demeter\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\moisture_icon.png
