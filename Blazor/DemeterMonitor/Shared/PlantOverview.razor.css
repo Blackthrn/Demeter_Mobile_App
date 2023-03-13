@@ -1,0 +1,56 @@
+* {
+
+    font-family: Roboto;
+
+}
+
+h3 {
+
+    color: #C17667;
+    font-weight: bold;
+
+}
+
+p {
+
+    color: #34341C;
+
+}
+
+.PlantProfile {
+
+    background-color: #EAE1DF;
+    padding: 2vh;
+    border-radius: 12px;
+    height: 40vh;
+    width: 28vh;
+    display: inline-block;
+    margin: 2vh;
+
+}
+
+.PlantImage {
+
+    text-align: center;
+
+}
+
+img {
+
+    height: 20vh;
+    width: 20vh;
+    border-radius: 12px;
+    
+}
+
+.PlantInfo {
+
+    margin-top: 1vh;
+
+}
+
+.PlantInfo span {
+
+    font-weight: bold;
+
+}

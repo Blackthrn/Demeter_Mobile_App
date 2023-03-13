@@ -1,0 +1,24 @@
+﻿<div class="PlantProfile">
+    <h3>@_plantName</h3>
+    <div class="PlantImage">
+        <img src=@_plantImagePath />
+    </div>
+    <p class="PlantInfo"><span>Soil Moisture:</span> @_currentMoistureLevel</p>
+    <p class="PlantInfo"><span>Light Levels:</span> @_currentLightLevel</p>
+</div>
+
+@code {
+
+    [Parameter]
+    public string? _plantName { get; set; }
+
+    [Parameter]
+    public string? _plantImagePath { get; set; }
+
+    [Parameter]
+    public string? _currentMoistureLevel { get; set; }
+
+    [Parameter]
+    public string? _currentLightLevel { get; set; }
+
+}

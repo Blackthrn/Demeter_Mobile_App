@@ -1,0 +1,27 @@
+* {
+
+    font-family: Roboto;
+
+}
+
+h3 {
+
+    color: #C17667;
+    font-weight: bold;
+
+}
+
+p {
+
+    color: #34341C;
+
+}
+
+.GraphContainer {
+    
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    padding: 2vh;
+    margin-bottom: 4vh;
+
+}

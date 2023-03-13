@@ -1,0 +1,226 @@
+/* _content/DemeterMonitor/Shared/MainLayout.razor.rz.scp.css */
+.page[b-0chnwtccl1] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-0chnwtccl1] {
+    flex: 1;
+}
+
+.sidebar[b-0chnwtccl1] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-0chnwtccl1] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-0chnwtccl1]  a, .top-row .btn-link[b-0chnwtccl1] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-0chnwtccl1] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-0chnwtccl1] {
+        display: none;
+    }
+
+    .top-row.auth[b-0chnwtccl1] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-0chnwtccl1], .top-row .btn-link[b-0chnwtccl1] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-0chnwtccl1] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-0chnwtccl1] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-0chnwtccl1] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-0chnwtccl1], article[b-0chnwtccl1] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/DemeterMonitor/Shared/MoistureLevels.razor.rz.scp.css */
+*[b-1ybdujt6m1] {
+
+    font-family: Roboto;
+
+}
+
+h3[b-1ybdujt6m1] {
+
+    color: #C17667;
+    font-weight: bold;
+
+}
+
+p[b-1ybdujt6m1] {
+
+    color: #34341C;
+
+}
+
+.GraphContainer[b-1ybdujt6m1] {
+    
+    background-color: #EAE1DF;
+    border-radius: 12px;
+    padding: 2vh;
+    margin-bottom: 4vh;
+
+}
+/* _content/DemeterMonitor/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-938lj5ft15] {
+    background-color: #519872;
+}
+
+.top-row[b-938lj5ft15] {
+    height: 3.5rem;
+    background-color: #519872;
+}
+
+.navbar-brand[b-938lj5ft15] {
+    font-size: 1.1rem;
+    font-family: Roboto;
+}
+
+.oi[b-938lj5ft15] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-938lj5ft15] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-938lj5ft15] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-938lj5ft15] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-938lj5ft15]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+        .nav-item[b-938lj5ft15]  a.active {
+            background-color: rgba(81,152,114,0.25);
+            color: white;
+        }
+
+        .nav-item[b-938lj5ft15]  a:hover {
+            background-color: rgba(81,152,114,0.1);
+            color: white;
+        }
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-938lj5ft15] {
+        display: none;
+    }
+
+    .collapse[b-938lj5ft15] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+
+    .nav-scrollable[b-938lj5ft15] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* _content/DemeterMonitor/Shared/PlantOverview.razor.rz.scp.css */
+*[b-a9lb0fowyv] {
+
+    font-family: Roboto;
+
+}
+
+h3[b-a9lb0fowyv] {
+
+    color: #C17667;
+    font-weight: bold;
+
+}
+
+p[b-a9lb0fowyv] {
+
+    color: #34341C;
+
+}
+
+.PlantProfile[b-a9lb0fowyv] {
+
+    background-color: #EAE1DF;
+    padding: 2vh;
+    border-radius: 12px;
+    height: 40vh;
+    width: 28vh;
+    display: inline-block;
+    margin: 2vh;
+
+}
+
+.PlantImage[b-a9lb0fowyv] {
+
+    text-align: center;
+
+}
+
+img[b-a9lb0fowyv] {
+
+    height: 20vh;
+    width: 20vh;
+    border-radius: 12px;
+    
+}
+
+.PlantInfo[b-a9lb0fowyv] {
+
+    margin-top: 1vh;
+
+}
+
+.PlantInfo span[b-a9lb0fowyv] {
+
+    font-weight: bold;
+
+}

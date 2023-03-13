@@ -1,0 +1,56 @@
+*[b-5bwb4d8ret] {
+
+    font-family: Roboto;
+
+}
+
+h3[b-5bwb4d8ret] {
+
+    color: #C17667;
+    font-weight: bold;
+
+}
+
+p[b-5bwb4d8ret] {
+
+    color: #34341C;
+
+}
+
+.PlantProfile[b-5bwb4d8ret] {
+
+    background-color: #EAE1DF;
+    padding: 2vh;
+    border-radius: 12px;
+    height: 40vh;
+    width: 28vh;
+    display: inline-block;
+    margin: 2vh;
+
+}
+
+.PlantImage[b-5bwb4d8ret] {
+
+    text-align: center;
+
+}
+
+img[b-5bwb4d8ret] {
+
+    height: 20vh;
+    width: 20vh;
+    border-radius: 12px;
+    
+}
+
+.PlantInfo[b-5bwb4d8ret] {
+
+    margin-top: 1vh;
+
+}
+
+.PlantInfo span[b-5bwb4d8ret] {
+
+    font-weight: bold;
+
+}
