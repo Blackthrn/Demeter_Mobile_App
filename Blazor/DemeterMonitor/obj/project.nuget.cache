@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cgFpXPkOSZndP5Y5k+wQ5EPorJz5IC3ocKv/Uezy86LKpM5auk73xZd9PTcAN0OJbmFhsxfM9SapH8BsM9NhPw==",
+  "dgSpecHash": "VPb0n40zzUza98EJOfiiSn7f4p3wn2lCzE1eZvnZxTDeDu4VsF/NktVAGt11x0HWnh9ootcXZN6VWG57SDhlKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Website\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj",
+  "projectFilePath": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Mobile_App\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aliso\\.nuget\\packages\\google.api.commonprotos\\2.7.0\\google.api.commonprotos.2.7.0.nupkg.sha512",
     "C:\\Users\\aliso\\.nuget\\packages\\google.api.gax\\4.3.1\\google.api.gax.4.3.1.nupkg.sha512",

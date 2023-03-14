@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Website\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj": {}
+    "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Mobile_App\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Website\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj": {
+    "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Mobile_App\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Website\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj",
+        "projectUniqueName": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Mobile_App\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj",
         "projectName": "DemeterMonitor",
-        "projectPath": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Website\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj",
+        "projectPath": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Mobile_App\\Blazor\\DemeterMonitor\\DemeterMonitor.csproj",
         "packagesPath": "C:\\Users\\aliso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Website\\Blazor\\DemeterMonitor\\obj\\",
+        "outputPath": "C:\\Users\\aliso\\OneDrive\\Documents\\GitHub\\Demeter_Mobile_App\\Blazor\\DemeterMonitor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
